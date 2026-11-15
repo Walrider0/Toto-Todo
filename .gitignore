@@ -1,0 +1,25 @@
+# Függőségek
+node_modules/
+
+# Build kimenet
+dist/
+dest/
+
+# Környezeti változók
+.env
+.env.*
+!.env.example
+
+# Naplók
+*.log
+npm-debug.log*
+
+# Szerkesztők és rendszerfájlok
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# TypeScript cache
+*.tsbuildinfo
